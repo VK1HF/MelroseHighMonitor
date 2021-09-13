@@ -2,11 +2,11 @@
 # - Web page update checker for Melrose High
 # - Written and tested using Python 2.7.16, running from a cron job - twice a day, on a RaspBerry Pi
 # - Author : Ian Gilchist - ian@gilian.net
-# - Composed at the behest of Stuart McKeller - aka McSkellaMcFella - aka 'Kushinforthepushin
+# - Composed at the behest of Stuart McKeller
 # - Run it cron cron.d - 12 noon at 6pm each day : 0 12,18 * * * ~/MelroseHigh/MelroseWebChecker.py >~/MelroseHigh/log.txt
 # - Licence : None, feel free to use/modify as you like, be nice if you drop me a line. 
-# - Version 1.1 (fixed crontab)
-# - Date : 12 Sep 2021 - 4 Weeks into Covid Lockdown in the National Capital 
+# - Version 1.2
+# - Date : 13 Sep 2021 - 4 Weeks into Covid Lockdown in the National Capital 
 
 import urllib2
 import os
